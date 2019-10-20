@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="XamarinForms.CardView" Version="1.1.1.5" />
+    <PackageReference Include="CardsView" Version="2.3.4" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="4.2.0.709249" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="LoginDir\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Resources\untitled-design-482.jpg" />
+    <None Remove="Resources\spain2.jpg" />
+    <None Remove="Resources\france1.jpg" />
+    <None Remove="Resources\france2.jpg" />
+    <None Remove="Resources\uk1.jpg" />
+    <None Remove="Resources\uk2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\spain1.jpg" />
+    <EmbeddedResource Include="Resources\spain2.jpg" />
+    <EmbeddedResource Include="Resources\france1.jpg" />
+    <EmbeddedResource Include="Resources\france2.jpg" />
+    <EmbeddedResource Include="Resources\uk1.jpg" />
+    <EmbeddedResource Include="Resources\uk2.jpg" />
+  </ItemGroup>
+</Project>
